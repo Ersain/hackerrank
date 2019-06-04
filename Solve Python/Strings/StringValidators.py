@@ -1,0 +1,20 @@
+'''
+Problem: "String Validators"
+Description: Print true if -
+a string has any alphanumeric,
+a string has any alphabetical,
+a string has any digits,
+a string has any lowercase,
+a string has any uppercase symbols.
+
+'''
+
+
+if __name__ == '__main__':
+    s = input()
+
+    print(any(i for i in s if i.isalnum()))
+    print(any(i for i in s if i.isalpha()))
+    print(any(i for i in s if i.isdigit()))
+    print(any(i for i in s if i.islower()))
+    print(any(i for i in s if i.isupper()))
