@@ -2,6 +2,7 @@
 Problem: itertools.product()
 Description: Given two lists A and B,
 Print their Cartesian Product.
+Points: 10.
 
 '''
 
