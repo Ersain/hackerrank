@@ -3,6 +3,7 @@ Problem: Collections.OrderedDict().
 Description: Given a sequence of sold items,
 calculate their total sums and
 print the name and total profit of each item.
+Points: 20.
 
 '''
 

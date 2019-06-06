@@ -3,6 +3,7 @@ Problem: Collections.deque().
 Description: Perform the given commands
 on a deque, e.g. append(), pop(),
 popleft(), appendleft().
+Points: 20.
 
 '''
 

@@ -2,6 +2,7 @@
 Problem: Collections.namedtuple().
 Description: Calculate the average marks of the students
 according to some column.
+Points: 20.
 
 '''
 
