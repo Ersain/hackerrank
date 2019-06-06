@@ -1,5 +1,6 @@
 '''
-Problem: Write a function
+Problem: Write a function.
+Points: 10.
 
 '''
 

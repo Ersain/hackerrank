@@ -1,7 +1,8 @@
 '''
 Problem: "Python: Division"
 Description: Read 2 integers and
-print their integer division and float division
+print their integer division and float division.
+Points: 10.
 
 '''
 

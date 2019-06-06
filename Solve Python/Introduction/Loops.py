@@ -1,6 +1,7 @@
 '''
 Problem: Loops
-Description: Given an integer n, print i^2 for all non-negative integers i < n
+Description: Given an integer n, print i^2 for all non-negative integers i < n.
+Points: 10.
 
 '''
 

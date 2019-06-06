@@ -1,6 +1,7 @@
 '''
 Problem: Print Function
-Description: Read an integer n and print 123..n
+Description: Read an integer n and print 123..n.
+Points: 20.
 
 '''
 

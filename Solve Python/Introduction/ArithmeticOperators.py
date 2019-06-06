@@ -1,6 +1,7 @@
 '''
 Problem: Arithmetic Operators
-Description: Read 2 integers and print their sum, difference and product
+Description: Read 2 integers and print their sum, difference and product.
+Points: 10.
 
 '''
 
