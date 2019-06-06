@@ -7,6 +7,7 @@ For each integer i,
 where i in A, your happiness increments,
 and if i in B, decrements.
 Print you final happiness.
+Points: 50.
 
 '''
 

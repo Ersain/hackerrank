@@ -2,6 +2,7 @@
 Problem: Set .discard(), .remove() & .pop().
 Description: Usage of set.discard(),
 set.remove(), set.pop().
+Points: 10.
 
 '''
 

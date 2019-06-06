@@ -1,6 +1,7 @@
 '''
 Problem: Check Subset.
 Description: Check if a given set A is a subset of a set B.
+Points: 10.
 
 '''
 

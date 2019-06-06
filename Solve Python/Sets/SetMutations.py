@@ -1,6 +1,7 @@
 '''
 Problem: Set Mutations.
 Description: Read operations and perform them on a set.
+Points: 10.
 
 '''
 

@@ -1,6 +1,7 @@
 '''
 Problem: Set .symmetric_difference() Operation.
 Description: Usage of set.symmetric_difference() method on sets.
+Points: 10.
 
 '''
 

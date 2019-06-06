@@ -1,6 +1,7 @@
 '''
 Problem: Set .union() Operation.
 Description: Usage of set.union() method on sets.
+Points: 10.
 
 '''
 

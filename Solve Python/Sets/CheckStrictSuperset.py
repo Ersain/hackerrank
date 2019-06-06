@@ -2,6 +2,7 @@
 Problem: Check Strict Superset.
 Description: Check if a given set A is a super set of
 the following N sets.
+Points: 10.
 
 '''
 

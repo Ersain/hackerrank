@@ -1,5 +1,6 @@
 '''
 Problem: Introduction to Sets.
+Points: 10.
 
 '''
 

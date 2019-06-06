@@ -1,6 +1,7 @@
 '''
 Problem: Set .add().
 Description: Usage of set.add() method.
+Points: 10.
 
 '''
 

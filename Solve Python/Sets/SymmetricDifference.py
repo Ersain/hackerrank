@@ -2,6 +2,7 @@
 Problem: Symmetric Difference.
 Description: Print the symmetric difference
 of two sets M and N in ascending order.
+Points: 10.
 
 '''
 

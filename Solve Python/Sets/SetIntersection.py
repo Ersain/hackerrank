@@ -1,6 +1,7 @@
 '''
 Problem: Set .intersection() Operation.
 Description: Usage of set.intersection() method on sets.
+Points: 10.
 
 '''
 

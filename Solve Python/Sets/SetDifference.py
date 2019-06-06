@@ -1,6 +1,7 @@
 '''
 Problem: Set .difference() Operation.
 Description: Usage of set.difference() method on sets.
+Points: 10.
 
 '''
 
