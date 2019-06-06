@@ -3,6 +3,7 @@ Problem: Any or All.
 Description: Given a list of integers,
 If all the integers are positive, 
 then check if any integer is a palindromic integer..
+Points: 20.
 
 '''
 

@@ -5,6 +5,7 @@ Sort S in this form:
 lowerCase > upperCase > (odds > evens).digits.
 E.g.
 Sorting1234 -> ginortS1324.
+Points: 40.
 
 '''
 
