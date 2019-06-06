@@ -1,5 +1,6 @@
 '''
-Problem: String Split and Join
+Problem: String Split and Join.
+Points: 10.
 
 '''
 

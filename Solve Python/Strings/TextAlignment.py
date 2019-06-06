@@ -1,7 +1,8 @@
 '''
 Problem: Text Alignment
 Description: Draw a HackerRank logo
-with a given thickness
+with a given thickness.
+Points: 10.
 
 '''
 

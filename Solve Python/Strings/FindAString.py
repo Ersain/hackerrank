@@ -1,5 +1,6 @@
 '''
-Problem: "Find a string"
+Problem: "Find a string".
+Points: 10.
 
 '''
 

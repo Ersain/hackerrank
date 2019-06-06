@@ -1,5 +1,6 @@
 '''
-Problem: Mutations
+Problem: Mutations.
+Points: 10.
 
 '''
 

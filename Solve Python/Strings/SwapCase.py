@@ -1,5 +1,6 @@
 '''
-Problem: "sWAP cASE"
+Problem: "sWAP cASE".
+Points: 10.
 
 '''
 

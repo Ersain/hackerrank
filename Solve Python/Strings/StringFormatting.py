@@ -1,5 +1,6 @@
 '''
 Problem: "String Formatting".
+Points: 10.
 
 '''
 

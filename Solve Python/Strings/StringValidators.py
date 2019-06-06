@@ -6,6 +6,7 @@ a string has any alphabetical,
 a string has any digits,
 a string has any lowercase,
 a string has any uppercase symbols.
+Points: 10.
 
 '''
 

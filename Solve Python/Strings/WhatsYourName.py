@@ -1,5 +1,6 @@
 '''
 Problem: "What's Your Name?".
+Points: 10.
 
 '''
 

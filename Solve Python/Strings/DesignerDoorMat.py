@@ -3,6 +3,7 @@ Problem: Designer Door Mat
 Description: Print the design of a door mat
 using "-" and ".|." of size NxM.
 N and M must be odd.
+Points: 10.
 
 
 '''

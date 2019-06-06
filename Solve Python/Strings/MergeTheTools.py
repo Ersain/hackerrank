@@ -7,6 +7,9 @@ E.g.
 AABCAAADA, 3 ->
 AB, CA, AD
 
+.
+Points: 40.
+
 '''
 
 

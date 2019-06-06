@@ -1,5 +1,6 @@
 '''
-Problem: Capitalize.
+Problem: Capitalize..
+Points: 20.
 
 '''
 

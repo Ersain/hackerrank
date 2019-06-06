@@ -1,6 +1,7 @@
 '''
 Problem: The Minion Game.
 Description: Determine the winner of the game.
+Points: 40.
 
 '''
 
