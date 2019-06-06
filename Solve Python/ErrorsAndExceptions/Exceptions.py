@@ -2,6 +2,7 @@
 Problem: Exceptions.
 Description: Given 2 numbers a and b,
 try to print a//b.
+Points: 10.
 
 '''
 
