@@ -2,7 +2,8 @@
 Problem: List Comprehensions
 Description: Read 4 integers i, j, k, n and
 print a list of all possible coordinates (i, j, k)
-where i+j+k != n
+where i+j+k != n.
+Points: 10.
 
 '''
 

@@ -11,7 +11,9 @@ Arjun 70 98 63
 Malika 52 56 60
 Malika
 
-Output: 56.00
+Output: 56.00.
+
+Points: 10.
 
 
 '''

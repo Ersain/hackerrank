@@ -3,6 +3,7 @@ Problem: "Tuples"
 Description: Read an integer n and integers.
 Create a tuple of this integers.
 Compute hash() of the tuple and print.
+Points: 10.
 
 '''
 

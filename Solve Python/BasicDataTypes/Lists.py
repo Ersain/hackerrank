@@ -3,6 +3,7 @@ Problem: "Lists"
 Description: Read an integer n and
 list commands, e.g. remove, append, etc.
 Perform the commands in the order on a list.
+Points: 10.
 
 '''
 

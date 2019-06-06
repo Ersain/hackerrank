@@ -1,7 +1,8 @@
 '''
 Problem: Find the runner-up score!
 Description: Read an integer n and array arr,
-print the runner-up score
+print the runner-up score.
+Points: 10.
 
 '''
 
