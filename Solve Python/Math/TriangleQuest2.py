@@ -2,6 +2,7 @@
 Problem: Triangle Quest 2.
 Description: Given an integer n.
 Print a palindromic triangle of size n.
+Points: 20.
 
 '''
 

@@ -2,6 +2,7 @@
 Problem: Polar Coordinates.
 Description: Given a complex number,
 convert it into polar.
+Points: 10.
 
 '''
 

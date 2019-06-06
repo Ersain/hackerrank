@@ -2,6 +2,7 @@
 Problem: Integers Come In All Sizes.
 Description: Given 4 integers a, b, c, d.
 Print a^b + c^d.
+Points: 10.
 
 '''
 

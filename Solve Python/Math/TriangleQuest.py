@@ -2,6 +2,7 @@
 Problem: Triangle Quest.
 Description: Given an integer n.
 Print a numerical triangle of height n-1.
+Points: 20.
 
 '''
 

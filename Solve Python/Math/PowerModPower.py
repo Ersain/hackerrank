@@ -2,6 +2,7 @@
 Problem: Power - Mod Power.
 Description: Given integers a, b, c -
 print (a^b) and (a^b % c).
+Points: 10.
 
 '''
 

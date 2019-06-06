@@ -2,6 +2,7 @@
 Problem: Mod Divmod.
 Description: Print integer division,
 modulo operator and divmod() of two values.
+Points: 10.
 
 '''
 
