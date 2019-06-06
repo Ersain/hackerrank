@@ -6,6 +6,8 @@ where each member of the sequence is x^3.
 E.g.
 5 -> [0, 1, 1, 8, 27]
 
+Points: 20.
+
 
 '''
 
