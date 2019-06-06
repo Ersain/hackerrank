@@ -2,6 +2,7 @@
 Problem: Polynomials.
 Description: Given coefficients of a polynomial P,
 print the value of P at point x.
+Points: 20.
 
 '''
 

@@ -3,6 +3,7 @@ Problem: Eye and Identity.
 Description: Given 2 integers n and m,
 print NxM matrix with its main diagonal elements
 as 1s and 0s elsewhere.
+Points: 20.
 
 '''
 

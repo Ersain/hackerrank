@@ -2,6 +2,7 @@
 Problem: Dot and Cross.
 Description: Given 2 NxM arrays A and B,
 print their matrix product.
+Points: 20.
 
 '''
 

@@ -2,6 +2,7 @@
 Problem: Shape and Reshape.
 Description: Given a list of 9 numbers,
 convert this list into 3x3 numpy array and print.
+Points: 20.
 
 '''
 

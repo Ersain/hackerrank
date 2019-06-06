@@ -3,6 +3,7 @@ Problem: Min and Max.
 Description: Given a NxM array A,
 use the min function over axis 1 and
 find the max of that.
+Points: 20.
 
 '''
 

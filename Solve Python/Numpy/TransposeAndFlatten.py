@@ -2,6 +2,7 @@
 Problem: Transpose and Flatten.
 Description: Given a NxM array,
 print its transpose and flatten results.
+Points: 20.
 
 '''
 

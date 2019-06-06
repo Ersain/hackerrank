@@ -6,6 +6,8 @@ A+B, A-B,
 A*B, A/B,
 A % B, A**B.
 
+Points: 20.
+
 '''
 
 import numpy

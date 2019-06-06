@@ -2,6 +2,7 @@
 Problem: Inner and Outer.
 Description: Given 2 arrays,
 print their inner and outer product.
+Points: 20.
 
 '''
 

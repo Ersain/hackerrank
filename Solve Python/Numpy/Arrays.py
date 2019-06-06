@@ -2,6 +2,7 @@
 Problem: Arrays.
 Description: Given a list of numbers,
 print a reversed numpy array.
+Points: 20.
 
 '''
 

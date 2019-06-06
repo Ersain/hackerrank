@@ -2,6 +2,7 @@
 Problem: Zeros and Ones.
 Description: Given the 3D shape of an array,
 print it using numpy.zeros and numpy.ones.
+Points: 20.
 
 '''
 

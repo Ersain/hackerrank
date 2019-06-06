@@ -3,6 +3,7 @@ Problem: Sum and Prod.
 Description: Given a NxM array A,
 use sum tool over axis 0 and
 find the product of the result.
+Points: 20.
 
 '''
 
