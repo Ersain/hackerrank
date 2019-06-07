@@ -8,27 +8,47 @@ Points: 10.
 '''
 
 
-if __name__ == '__main__':
-    N = int(input())
+def use_command(arr, command):
+    command = command.split()
 
-    a_list = []
+    if command[0] == 'insert':
+        arr.insert(int(command[1]), int(command[2]))
+    elif command[0] == 'print':
+        print(arr)
+    elif command[0] == 'remove':
+        arr.remove(int(command[1]))
+    elif command[0] == 'append':
+        arr.append(int(command[1]))
+    elif command[0] == 'sort':
+        arr.sort()
+    elif command[0] == 'pop':
+        arr.pop()
+    elif command[0] == 'reverse':
+        arr.reverse()
 
-    for i in range(N):
-        op = input()
+# if __name__ == '__main__':
+#     N = int(input())
 
-        op_list = op.split()
+#     a_list = []
 
-        if op_list[0] == 'insert':
-            a_list.insert(int(op_list[1]), int(op_list[2]))
-        elif op_list[0] == 'print':
-            print(a_list)
-        elif op_list[0] == 'remove':
-            a_list.remove(int(op_list[1]))
-        elif op_list[0] == 'append':
-            a_list.append(int(op_list[1]))
-        elif op_list[0] == 'sort':
-            a_list.sort()
-        elif op_list[0] == 'pop':
-            a_list.pop()
-        elif op_list[0] == 'reverse':
-            a_list.reverse()
+#     for i in range(N):
+#         op = input()
+#         use_command(a_list, op)
+
+
+def test_use_1():
+    res = [3, 2, 1]
+    use_command(res, 'sort')
+    assert res == [1, 2, 3]
+
+
+def test_use_2():
+    res = [0, 1, 1, 2]
+    use_command(res, 'append 3')
+    assert res == [0, 1, 1, 2, 3]
+
+
+def test_use_3():
+    res = [1, 3, 3, 7]
+    use_command(res, 'pop')
+    assert res == [1, 3, 3]
