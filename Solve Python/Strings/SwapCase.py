@@ -20,17 +20,8 @@ def swap_case(s):
             temp += s[i]
     return temp
 
-# if __name__ == '__main__':
-#     s = input()
-#     result = swap_case(s)
-#     print(result)
 
-
-def test_swap_1():
-    assert swap_case('Swap Case') == 'sWAP cASE'
-
-def test_swap_2():
-    assert swap_case('AhAhA') == 'aHaHa'
-
-def test_swap_3():
-    assert swap_case('FooBar') == 'fOObAR'
+if __name__ == '__main__':
+    s = input()
+    result = swap_case(s)
+    print(result)

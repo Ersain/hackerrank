@@ -9,5 +9,9 @@ Points: 10.
 
 import calendar
 
+
+def solve(m, d, y):
+    return list(calendar.day_name)[calendar.weekday(y, m, d)].upper()
+
 m, d, y = list(map(int, input().split()))
-print(list(calendar.day_name)[calendar.weekday(y, m, d)].upper())
+print(solve(m, d, y))
