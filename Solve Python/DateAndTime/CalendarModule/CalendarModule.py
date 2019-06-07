@@ -10,8 +10,10 @@ Points: 10.
 import calendar
 
 
-def solve(m, d, y):
+def define_date(m, d, y):
     return list(calendar.day_name)[calendar.weekday(y, m, d)].upper()
 
-m, d, y = list(map(int, input().split()))
-print(solve(m, d, y))
+
+if __name__ == "__main__":
+    m, d, y = list(map(int, input().split()))
+    print(define_date(m, d, y))

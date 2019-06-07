@@ -9,5 +9,11 @@ Points: 20.
 import numpy
 
 
-def arrays(arr):
+def reverse_array(arr):
     return numpy.array(arr[::-1], float)
+
+
+if __name__ == "__main__":
+    arr = input().strip().split(' ')
+    result = reverse_array(arr)
+    print(result)
