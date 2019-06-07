@@ -17,6 +17,7 @@ def count_phase(a, b):
     return phase(complex(a, b))
 
 
-s = complex(input())
-print(abs(s))
-print(phase(s))
+if __name__ == '__main__':
+    s = complex(input())
+    print(abs(s))
+    print(phase(s))

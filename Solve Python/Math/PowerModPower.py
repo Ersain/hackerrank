@@ -15,8 +15,9 @@ def count_pow_mod(a, b, c):
     return pow(a, b, c)
 
 
-a = int(input())
-b = int(input())
-c = int(input())
-print(pow(a, b))
-print(pow(a, b, c))
+if __name__ == '__main__':
+    a = int(input())
+    b = int(input())
+    c = int(input())
+    print(pow(a, b))
+    print(pow(a, b, c))
