@@ -12,16 +12,20 @@ Points: 50.
 '''
 
 
-happiness = 0
-n, m = map(int, input().split())
-arr = list(map(int, input().split()))
-set_a = set(map(int, input().split()))
-set_b = set(map(int, input().split()))
+def count_happiness(arr, set_1, set_2):
+    happiness = 0
+    for i in arr:
+        if i in set_1:
+            happiness += 1
+        elif i in set_2:
+            happiness -= 1
+    return happiness
 
-for i in arr:
-    if i in set_a:
-        happiness += 1
-    elif i in set_b:
-        happiness -= 1
 
-print(happiness)
+if __name__ == "__main__":
+    n, m = map(int, input().split())
+    list_int = list(map(int, input().split()))
+    set_a = set(map(int, input().split()))
+    set_b = set(map(int, input().split()))
+
+    print(count_happiness(list_int, set_a, set_b))

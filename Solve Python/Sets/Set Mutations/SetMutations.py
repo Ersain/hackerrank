@@ -6,18 +6,23 @@ Points: 10.
 '''
 
 
-num_of_a = int(input())
-a_set = set(map(int, input().split()))
+def perform_command(set_a, set_b, command):
+    if command == 'intersection_update':
+        set_a &= set_b
+    elif command == 'update':
+        set_a |= set_b
+    elif command == 'symmetric_difference_update':
+        set_a ^= set_b
+    elif command == 'difference_update':
+        set_a -= set_b
 
-for i in range(int(input())):
-    op_name = list(input().split())
-    op_set = set(map(int, input().split()))
-    if op_name[0] == 'intersection_update':
-        a_set &= op_set
-    elif op_name[0] == 'update':
-        a_set |= op_set
-    elif op_name[0] == 'symmetric_difference_update':
-        a_set ^= op_set
-    elif op_name[0] == 'difference_update':
-        a_set -= op_set
-print(sum(a_set))
+
+if __name__ == "__main__":
+    num_of_a = int(input())
+    a_set = set(map(int, input().split()))
+
+    for i in range(int(input())):
+        op_name = input().split()
+        op_set = set(map(int, input().split()))
+        perform_command(a_set, op_set, op_name[0])
+    print(sum(a_set))

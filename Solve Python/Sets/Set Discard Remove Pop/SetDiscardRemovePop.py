@@ -7,17 +7,22 @@ Points: 10.
 '''
 
 
-n = int(input())
-s = set(map(int, input().split()))
-commands_num = int(input())
+def perform_command(set_1, command):
+    command = command.split()
+    if command[0] == 'pop':
+        set_1.pop()
+    elif command[0] == 'remove':
+        set_1.remove(int(command[1]))
+    elif command[0] == 'discard':
+        set_1.discard(int(command[1]))
 
-for i in range(commands_num):
-    temp_list = list(input().split())
-    if temp_list[0] == 'pop':
-        s.pop()
-    elif temp_list[0] == 'remove':
-        s.remove(int(temp_list[1]))
-    elif temp_list[0] == 'discard':
-        s.discard(int(temp_list[1]))
 
-print(sum(s))
+if __name__ == "__main__":
+    n = int(input())
+    s = set(map(int, input().split()))
+    commands_num = int(input())
+
+    for i in range(commands_num):
+        perform_command(s, input())
+
+    print(sum(s))
