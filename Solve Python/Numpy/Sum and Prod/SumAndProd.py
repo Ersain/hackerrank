@@ -9,6 +9,12 @@ Points: 20.
 
 import numpy
 
-n, m = map(int, input().split())
-arr = numpy.array([input().split() for i in range(n)], int)
-print(numpy.prod(numpy.sum(arr, axis=0)))
+
+def prod_of_sum(arr, dir=None):
+    return numpy.prod(numpy.sum(arr, axis=dir))
+
+
+if __name__ == "__main__":
+    n, m = map(int, input().split())
+    arr = numpy.array([input().split() for i in range(n)], int)
+    print(prod_of_sum(arr, 0))

@@ -9,7 +9,13 @@ Points: 20.
 
 import numpy
 
-n, m = map(int, input().split())
-arr = numpy.array([input().split() for i in range(n)], int)
 
-print(numpy.max(numpy.min(arr, axis=1)))
+def max_of_min(arr, dir=None):
+    return numpy.max(numpy.min(arr, axis=dir))
+
+
+if __name__ == "__main__":
+    n, m = map(int, input().split())
+    arr = numpy.array([input().split() for i in range(n)], int)
+
+    print(max_of_min(arr, 1))

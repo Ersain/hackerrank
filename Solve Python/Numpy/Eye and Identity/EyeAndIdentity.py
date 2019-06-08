@@ -9,7 +9,13 @@ Points: 20.
 
 import numpy
 
-numpy.set_printoptions(sign=' ')
 
-n, m = map(int, input().split())
-print(numpy.eye(n, m))
+def eye_arr(n, m):
+    return numpy.eye(n, m)
+
+
+if __name__ == "__main__":
+    numpy.set_printoptions(sign=' ')
+
+    n, m = map(int, input().split())
+    print(eye_arr(n, m))

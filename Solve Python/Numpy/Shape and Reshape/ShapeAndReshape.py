@@ -9,5 +9,13 @@ Points: 20.
 
 import numpy
 
-arr = numpy.array(input().split(), int)
-print(numpy.reshape(arr, (3, 3)))
+
+def reshape_ar(ar):
+    if len(ar) == 9:
+        return numpy.reshape(ar, (3, 3))
+    return ar
+
+
+if __name__ == "__main__":
+    arr = numpy.array(input().split(), int)
+    print(reshape_ar(arr))

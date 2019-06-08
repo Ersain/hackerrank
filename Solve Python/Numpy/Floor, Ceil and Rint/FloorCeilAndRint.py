@@ -8,10 +8,23 @@ Points: 20.
 '''
 
 import numpy
-
 numpy.set_printoptions(sign=' ')
 
-arr = numpy.array(input().split(), float)
-print(numpy.floor(arr))
-print(numpy.ceil(arr))
-print(numpy.rint(arr))
+
+def floor_arr(arr):
+    return numpy.floor(arr)
+
+
+def ceil_arr(arr):
+    return numpy.ceil(arr)
+
+
+def rint_arr(arr):
+    return numpy.rint(arr)
+
+
+if __name__ == "__main__":
+    arr = numpy.array(input().split(), float)
+    print(floor_arr(arr))
+    print(ceil_arr(arr))
+    print(rint_arr(arr))

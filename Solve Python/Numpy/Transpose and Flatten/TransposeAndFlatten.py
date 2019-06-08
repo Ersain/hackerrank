@@ -8,8 +8,18 @@ Points: 20.
 
 import numpy
 
-n, m = map(int, input().split())
-arr = numpy.array([input().split() for i in range(n)], int)
 
-print(numpy.transpose(arr))
-print(arr.flatten())
+def transopose_arr(ar):
+    return numpy.transpose(ar)
+
+
+def flatten_arr(ar):
+    return ar.flatten()
+
+
+if __name__ == "__main__":
+    n, m = map(int, input().split())
+    arr = numpy.array([input().split() for i in range(n)], int)
+
+    print(transopose_arr(arr))
+    print(flatten_arr(arr))
