@@ -8,12 +8,15 @@ Read two integers from STDIN and print three lines where:
 
 #### Sample Input
 ```python
-
+3
+2
 ```
 
 #### Sample Output
 ```python
-
+5
+1
+6
 ```
 
 #### Using with python
