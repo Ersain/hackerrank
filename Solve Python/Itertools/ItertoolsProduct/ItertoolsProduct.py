@@ -9,14 +9,16 @@ Points: 10.
 
 from itertools import product
 
-row1 = input()
-row2 = input()
 
-a = row1.split(' ')
-b = row2.split(' ')
+def cartesian_product(arr1, arr2):
+    return product(arr1, arr2)
 
-a = [int(i) for i in a]
-b = [int(i) for i in b]
 
-for i in list(product(a, b)):
-    print(i, end=" ")
+if __name__ == "__main__":
+    a = list(map(int, input().split()))
+    b = list(map(int, input().split()))
+
+    res = cartesian_product(a, b)
+
+    for i in res:
+        print(i, end=" ")
