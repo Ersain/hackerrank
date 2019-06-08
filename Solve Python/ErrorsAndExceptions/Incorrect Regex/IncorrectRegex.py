@@ -8,9 +8,15 @@ Points: 20.
 
 import re
 
-for i in range(int(input())):
+
+def is_regex(string):
     try:
-        re.compile(input())
-        print(True)
+        re.compile(string)
+        return True
     except re.error:
-        print(False)
+        return False
+
+
+if __name__ == "__main__":
+    for i in range(int(input())):
+        print(is_regex(input()))
