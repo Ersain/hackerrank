@@ -18,6 +18,11 @@ Points: 10.
 
 '''
 
+
+def count_avg(student, mark_dict):
+    return sum(mark_dict[student])/len(mark_dict[student])
+
+
 if __name__ == '__main__':
     n = int(input())
     marks = {}
@@ -28,6 +33,4 @@ if __name__ == '__main__':
         marks[name] = scores
     target = input()
 
-    res = sum(marks[target])/len(marks[target])
-
-    print("{0:.2f}".format(res))
+    print("{0:.2f}".format(count_avg(target, marks)))
