@@ -9,13 +9,18 @@ Points: 10.
 
 '''
 
-N = int(input())
 
-cond = (N % 2 == 0)
+def is_weird(n):
+    cond = (n % 2 == 0)
 
-if not cond:
-    print("Weird")
-elif cond and (2 <= N <= 5 or 20 < N):
-    print("Not Weird")
-elif cond and (6 <= N <= 20):
-    print("Weird")
+    if not cond:
+        return ("Weird")
+    elif cond and (2 <= n <= 5 or 20 < n):
+        return ("Not Weird")
+    elif cond and (6 <= n <= 20):
+        return ("Weird")
+
+
+if __name__ == "__main__":
+    N = int(input())
+    print(is_weird(N))
