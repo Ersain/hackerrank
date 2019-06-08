@@ -6,7 +6,7 @@ My Python solutions to HackerRank Problems (Python Domain).
 
 ### Prerequisites
 * Python
-* HackerRank account
+* pyTest
 
 ### Usage
 
