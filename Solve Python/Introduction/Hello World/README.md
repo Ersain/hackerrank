@@ -21,7 +21,7 @@ $ python <name>.py
 
 #### Using with pyTest
 ```bash
-$ pytest test_<name>.py
+$ pytest --capture=sys test_<name>.py
 or
-$ pytest test_<name>.py -v -s
+$ pytest --capture=sys test_<name>.py -v
 ```
