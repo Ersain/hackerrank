@@ -17,9 +17,17 @@ $ python <name>.py
 ```sh
 $ pytest test_<name>.py
 ```
-Optional
+Optional:
 ```sh
 $ pytest test_<name>.py -v -s
+```
+If you need to capture stdout, type this:
+```sh
+$ pytest --capture=sys test_<name>.py
+```
+Optional:
+```sh
+$ pytest --capture=sys test_<name>.py -v
 ```
 
 
