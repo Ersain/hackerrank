@@ -1,4 +1,4 @@
-# Python - HackerRank
+# Python - HackerRank :pencil::snake:
 
 My Python solutions to HackerRank Problems (Python Domain).
 
@@ -6,7 +6,7 @@ My Python solutions to HackerRank Problems (Python Domain).
 
 ### Prerequisites
 * Python
-* HackerRank account
+* pyTest
 
 ### Usage
 
