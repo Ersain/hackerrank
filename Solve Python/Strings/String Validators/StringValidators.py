@@ -11,11 +11,14 @@ Points: 10.
 '''
 
 
-if __name__ == '__main__':
-    s = input()
-
+def is_valid(s):
     print(any(i for i in s if i.isalnum()))
     print(any(i for i in s if i.isalpha()))
     print(any(i for i in s if i.isdigit()))
     print(any(i for i in s if i.islower()))
     print(any(i for i in s if i.isupper()))
+
+
+if __name__ == '__main__':
+    string = input()
+    is_valid(string)
