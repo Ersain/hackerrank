@@ -2,7 +2,9 @@
 
 My Python solutions to HackerRank Problems (Python Domain).
 
-
+## Getting Started
+If you need a solution to a specific problem, go to the folder with the name of the problem's subdomain and find it there.
+_Note: This repo contains only 67 solutions of Python Domain (giving 1055 points in total)._
 
 ### Prerequisites
 * Python
