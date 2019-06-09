@@ -4,8 +4,12 @@ My Python solutions to HackerRank Problems (Python Domain).
 
 ## Getting Started
 If you need a solution to a specific problem, go to the folder with the name of the problem's subdomain and find it there.
-_Note: This repo contains only 67 solutions of Python Domain (giving 1055 points in total)._
-
+<br><br><br>
+_Note: This repo contains only 68 solutions of Python Domain (giving 1085 points in total)._
+<br>
+_Another Note: I did not write tests to:_
+* _Collections: NamedTuple_
+* _Collections: OrderedDict_
 ### Prerequisites
 * Python
 * pyTest
@@ -16,6 +20,7 @@ _Note: This repo contains only 67 solutions of Python Domain (giving 1055 points
 $ python <name>.py 
 ```
 ### Running the tests
+
 ```sh
 $ pytest test_<name>.py
 ```
